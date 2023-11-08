@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: private-quarkus-devfile-sample-xcbh
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-joqr-tenant/private-devfile/private-quarkus-devfile-sample-xcbh@sha256:ba71dc7b73442ee11006a943e9b162ed4a3c153f85c449460d47a6f4a8170649
+        name: my-java-quarkus
+        resources: {}
+status: {}
